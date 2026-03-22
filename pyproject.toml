@@ -4,12 +4,20 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
+
 dependencies = [
-    "black>=26.1.0",
-    "dotenv>=0.9.9",
-    "isort>=7.0.0",
-    "langchain>=1.2.10",
-    "langchain-ollama>=1.0.1",
-    "langchain-openai>=1.1.9",
-    "python-dotenv>=1.2.1",
+    # --- Code Quality Tools ---
+    "black>=26.1.0",           # Auto-formats your Python code to strict industry standards
+    "isort>=7.0.0",            # Automatically organizes and alphabetizes your import statements
+    
+    # --- LangChain AI Framework ---
+    "langchain>=1.2.10",       # The core motherboard (provides LCEL, chains, agents)
+    "langchain-ollama>=1.0.1", # Allows you to run free, local models offline
+    "langchain-openai>=1.1.9", # The official adapter to connect to ChatGPT APIs
+    
+    # --- Security & Config ---
+    "python-dotenv>=1.2.1",    # Securely loads your API keys from the hidden .env file
+    
+    # NOTE: The package simply named 'dotenv' was explicitly removed to prevent 
+    # namespace collisions and import errors in your environment.
 ]
