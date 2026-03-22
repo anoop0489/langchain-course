@@ -216,3 +216,7 @@ __marimo__/
 .streamlit/secrets.toml
 /.vs/slnx.sqlite
 /.vs/VSWorkspaceState.json
+.vs/langchain-course.slnx/v18/.wsuo
+.vs/langchain-course.slnx/FileContentIndex/06d3502d-bccc-4b70-b63b-d57310a5ef77.vsidx
+.vs/langchain-course.slnx/v18/DocumentLayout.backup.json
+.vs/langchain-course.slnx/v18/DocumentLayout.json
